@@ -1,0 +1,450 @@
+/*
+ID selectors (for sections)
+    CSS
+        #name-of-id
+
+    HTML
+        <__ id="name-of-id">
+
+Class Selectors 
+    CSS
+        .name-of-class
+
+    HTML
+        <__ class="name-of.class"> 
+*/
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: #E2DBCA;
+    font-weight: 400;
+    margin-top: 25px;
+}
+ 
+
+p {
+    color: #E2DBCA;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    padding-top: 7px;
+    padding-right: 50px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: #E2DBCA;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 17px;
+}
+
+
+.nav-area li a:hover {
+    background: rgba(226,219,202,10);
+    border-radius: 15px;
+    padding: 10px 25px;
+    color: black;
+   
+}
+
+.logo img {
+    width: 150px;
+    float: left;
+    padding-left: 50px;
+}
+
+.welcome-text{
+    margin: 160px auto 0 auto; 
+    text-align: center;
+}
+
+.welcome-text h1{
+    font-size: 45px;
+    font-style: normal;
+    color: #FF9400;
+}
+
+.welcome-text p{
+   text-align: center;
+   margin-left: -16px;
+}
+.welcome-text a{
+    background: #FF9400;
+    border-radius: 15px;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    display: inline-block;
+    color: black;
+}
+
+.welcome-text a:hover{
+    background: #c97500;
+}
+
+.start-now-button a{
+    background: #E2DBCA;
+    border-radius: 15px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: inline-block;
+    color: black;
+    margin-top: 80px;
+}
+
+.start-now-button a:hover{
+    background: #FF9400;
+}
+
+.bookalesson a{
+    background: #000000;
+    border-radius: 15px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: inline-block;
+    color: #FF9400;
+    margin-top: 10px;
+}
+
+.bookalesson a:hover{
+    background: #E2DBCA;
+    color: black;
+}
+
+.footer-info {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-info li{
+    float: left;
+}
+
+.footer-info li a {
+    color: #E2DBCA;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 17px;
+}
+
+.footer-info li a:hover {
+    color: #FF9400;
+}
+
+.footer-logo img {
+    width: 20%;
+}
+
+.filter-buttons {
+    float: right;
+    list-style: none;
+    padding-top: 7px;
+    padding-right: 50px;
+}
+
+.filter-buttons li{
+    display: inline-block;
+}
+
+.filter-buttons li a {
+    text-transform: inherit;
+    background: #E2DBCA;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.filter-buttons li a:hover {
+    background: #FF9400;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: black;   
+}
+
+
+
+.teachers a{
+    background: black;
+    border-radius: 10px;
+    padding: 7px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: inline-block;
+    color:#E2DBCA;
+}
+
+.teachers a:hover{
+    background: #FF9400;
+    color: black;
+}
+
+#button1{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+
+/* .teachers {
+    /* float: right; */
+    /* list-style: none;
+    padding-top: 7px;
+    padding-right: 50px;
+} */
+
+/* .teachers li{
+    display: table-row;
+    
+}
+
+.teachers li a {
+    text-transform: inherit;
+    background: #E2DBCA;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border-width: 40px;
+    padding: 10px 25px;
+    font-size: 17px;
+}  */
+
+#teacher-wrapper{
+    display: inline-block;
+}
+
+#filter-wrapper{
+    display: inline-block;
+}
+
+#welcome-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    margin: 90px auto 0 auto;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/backdrop.JPG");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+#header-wrapper {
+    padding: 3 0 5em 0;;
+}
+
+#header-line hr{
+    margin-top: 130px;
+    margin-bottom: -90px;
+    width: 100%;
+    border-color: #FF9400;
+}
+
+#main-wrapper {
+    padding: 850px 0 3em 0;
+}
+
+#find-a-tutor, #book-a-lesson, #start-learning {
+    /* float:left; */
+    display: inline-block;
+    margin: 0px 60px 20px 60px;
+    padding: 15px 15px 15px 15px;
+    border: 3px;
+    border-style: solid;
+    border-color: #E2DBCA; 
+    border-radius: 17px;
+ }
+
+#find-a-tutor h3, #book-a-lesson h3, #start-learning h3{
+     color: #FF9400;
+ }
+
+#find-a-tutor p, #book-a-lesson p, #start-learning p{
+    font-size: 16px;
+}
+
+#center-title{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    padding: 0 0 50px 0; 
+}
+
+#why-choose-us{
+    display: inline-block;
+    text-align: center;
+    margin: 230px 0 10px 0;
+}
+
+#why-choose-us h2{
+    color:#FF9400;
+    margin-bottom: 30px;
+}
+
+#why-choose-us p{
+    margin-top: 30px;
+    font-size: 17 px;
+}
+
+#why-choose-us img{
+    margin-top: 100px;
+}
+
+#end-wrapper{
+    margin-top: 200px;
+    background: url("../images/shape.JPG");
+    width: 100%;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+#end-wrapper h2, #end-wrapper p{
+    color: black;
+    margin-top: 70px;
+}
+
+#end-wrapper p{
+    margin-top: -7px;
+}
+
+#footer-wrapper{
+    display: inline-block;
+  
+}
+
+#footer-wrapper p{
+    opacity: 50%;
+    display: inline-block;
+    margin-left: -18px;
+}
+
+#footer-wrapper hr{
+    opacity: 50%;
+    width: 100%;
+}
+
+
+
+#welcome-wrapper2 {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+#welcome-wrapper2 hr{
+    width:80%;
+    opacity: 50%;
+}
+
+#main-wrapper2 {
+    padding: 850px 0 3em 0;
+}
+
+#avaliablity, #avaliablity2 {
+    text-transform: inherit;
+    margin-bottom: 60px;
+    background: #E2DBCA;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border-width: 40px;
+    padding: 10px 25px;
+    font-size: 17px;
+}
+
+
+#avaliablity li, #avaliablity2 li{
+    display: table-row;
+}
+
+#avaliablity {
+    list-style: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 250px;
+    margin-top: -200px;
+    
+}
+
+#avaliablity2{
+    list-style: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 250px;
+    margin-top: 00px;
+}
+
+#avaliablity img, #avaliablity2 img {
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 35%;
+    float:left;
+}
+
+#avaliablity p, #avaliablity2 p{
+    color: black;
+    font-size: 15px;
+}
+
+#avaliablity h3, #avaliablity2 h3{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+#avaliablity h5, #avaliablity2 h5{
+    color: grey;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#avaliablity p, #avaliablity2 p{
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#avaliablity h3, h5, p, #avaliablity2 h3, h5, p{
+    margin-top: 30px;
+    margin-left: 170px;
+    text-align: left;
+}
+
+#stars {
+    margin-left: -15px;
+}
+
+
+
+
